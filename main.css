@@ -1,0 +1,84 @@
+:root {
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --gray: #6B7280;
+    --light: #EEE;
+    --light2: rgb(117, 117, 117);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--dark);
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 50px 20px 0 20px;
+    box-sizing: border-box;
+    background-color: var(--darkest);
+    background: radial-gradient(
+        circle,
+        var(--light2) 1%,
+        var(--dark) 100%
+    );
+    margin: 100px auto;
+    box-shadow: 0 2px 10px var(--darker);
+}
+
+.card input {
+    font-size: 20px;
+    padding: 10px;
+    border: solid 1px var(--light);
+    color: var(--light);
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 5px 0;
+    outline: none;
+}
+
+.name-company {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--light);
+    font-weight: bold;
+}
+.name {
+    font-size: 28px;
+}
+
+.holder {
+    color: var(--light);
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.inputs-number {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: var(--light);
+    font-weight: bold;
+}
+.number1 {
+    padding-left: 5px;
+}
+.number2 {
+    padding-left: 135px;
+}
+.number3 {
+    padding-right: 125px;
+}
+
+.card #inputDate {
+    width: 50px;
+}
+
+.card #inputCVV {
+    width: 50px;
+}
