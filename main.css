@@ -50,11 +50,16 @@ body{
     font-size: 28px;
 }
 
+.image {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .holder {
     color: var(--light);
     font-weight: bold;
     font-size: 20px;
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 10px;
 }
 
