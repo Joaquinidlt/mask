@@ -7,5 +7,5 @@
 
 
 !<p align="center">
-  <img height="500" src="./img/credit-card-html-js-css.png" />
+  <img width="500" height="350" src="./img/creditCard-js-html-css.png" />
 </p>
